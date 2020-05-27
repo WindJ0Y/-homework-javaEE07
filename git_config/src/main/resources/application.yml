@@ -1,0 +1,19 @@
+
+server:
+  port: 10040
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10001/eureka/
+
+spring:
+  application:
+    name: gitconfig
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/WindJ0Y/-tmp-config.git
+          search-paths: config
+

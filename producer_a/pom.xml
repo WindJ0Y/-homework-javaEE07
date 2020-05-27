@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.windj0y.hw007</groupId>
-    <artifactId>eureca_server</artifactId>
+    <artifactId>producer_a</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureca_server</name>
+    <name>producer_a</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

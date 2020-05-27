@@ -12,6 +12,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureca_server/pom.xml" />
+        <option value="$PROJECT_DIR$/producer_a/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer_first/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/git_config/pom.xml" />
       </list>
     </option>
   </component>

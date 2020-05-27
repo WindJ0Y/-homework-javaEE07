@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.windj0y.hw007</groupId>
-    <artifactId>eureca_server</artifactId>
+    <artifactId>git_config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureca_server</name>
+    <name>git_config</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,11 +22,11 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
         <dependency>
