@@ -1,0 +1,13 @@
+
+server:
+  port: 10021
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10001/eureka/
+
+spring:
+  application:
+    name: fetcher_fegin
+

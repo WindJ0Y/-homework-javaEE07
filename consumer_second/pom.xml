@@ -11,7 +11,7 @@
     <groupId>com.windj0y.hw007</groupId>
     <artifactId>consumer_first</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>consumer_first</name>
+    <name>consumer_second</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -31,6 +31,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <dependency>

@@ -1,26 +1,27 @@
 
 server:
-  port: 10040
+  port: 10011
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:10001/eureka/
 
-
 spring:
   application:
-    name: gitconfig
+    name: provider
   cloud:
     config:
-      server:
-        git:
-          uri: https://github.com/WindJ0Y/-tmp-config.git
-          search-paths: config
+      name: provider
+      profile: dev
+      failFast: true
+      discovery:
+        enabled: true
+        service-id: gitconfig
     bus:
-      enabled: true
       trace:
         enabled: true
+
   rabbitmq:
     host: 127.0.0.1
     port: 5672
@@ -31,4 +32,6 @@ management:
   endpoints:
     web:
       exposure:
-        include: bus-refresh
+        include: refresh
+
+addition: 12345

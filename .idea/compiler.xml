@@ -7,20 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zuul" />
+        <module name="producer_b" />
         <module name="eureca_server" />
         <module name="hw007" />
         <module name="consumer_first" />
+        <module name="consumer_second" />
         <module name="git_config" />
         <module name="producer_a" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="main_bus" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer_first" options="-parameters" />
+      <module name="consumer_second" options="-parameters" />
       <module name="eureca_server" options="-parameters" />
       <module name="git_config" options="-parameters" />
+      <module name="main_bus" options="-parameters" />
       <module name="producer_a" options="-parameters" />
+      <module name="producer_b" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
